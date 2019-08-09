@@ -2,11 +2,15 @@
 body{
   background: #e8e8e8;
 }
-.back{
-  background: #fcfcfc;
+.first-padding{
+  padding: 20px 20px 20px 20px;
 }
-.g-padding{
-  padding: 20px;
+.second-padding{
+  padding: 20px 20px 20px 0;
+}
+.container{
+  background: #fcfcfc;
+  max-width: 1350px;
 }
 /* styles for row 1 */
 
@@ -19,28 +23,42 @@ body{
 }
 .a-row-1{
   color: black;
-  font-size: 19px;
+  font-size: 22px;
   font-weight: bold;
+  display: block;
+  line-height: 1em;
 }
 .a-row-1:hover{
   color: black;
-  text-decoration: none;
-  border-bottom: 2px solid #e32600;
+  text-decoration: underline;
+  text-decoration-color: #e32600;
 }
 .p-row-1{
-  font-size: 14px;
+  font-size: 16px;
   color: black;
 }
 .relative-container{
   position: relative;
-  width: 100%;
 }
-
 .a-abs-row-1{
   position: absolute;
+  padding: 8px 15px;
+  font-weight: bold;
   bottom: 0;
   left: 0;
   color: red;
-  font-size: 16px;
-  background: black;
+  font-size: 15px;
+  background: #fcfcfc;
+}
+.a-abs-row-1:hover{
+  color: red;
+  text-decoration: none;
+}
+.all-target-a{
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: 2;
 }
