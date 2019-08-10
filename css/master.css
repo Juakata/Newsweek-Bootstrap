@@ -123,7 +123,7 @@ img{
   grid-column-gap: 15px;
 }
 .container-img-info-second{
-  grid-template-columns: 150px 70%;
+  grid-template-columns: 150px 65%;
 }
 .img-row-1-col-3{
   float: left;
