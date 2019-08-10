@@ -123,10 +123,15 @@ img{
   grid-column-gap: 15px;
 }
 .container-img-info-second{
-  grid-template-columns: 150px 65%;
+  display: flex;
+  flex-direction: row;
 }
 .img-row-1-col-3{
-  float: left;
+  flex: 1;
+}
+.text-container{
+  flex: 1;
+  margin-left: 10px;
 }
 .a-row-1-col-3{
   color: black;
