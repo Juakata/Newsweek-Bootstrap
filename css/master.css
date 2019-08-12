@@ -184,8 +184,7 @@ img{
 .n-icon{
   background: red;
   color: white;
-  font-size: 20px;
-  padding: 5px;
+  padding: 0 5px;
   font-weight: 900;
   float: left;
   margin-right: 10px;
@@ -203,4 +202,20 @@ img{
 .preferences-link:hover{
   color: black;
   text-decoration: none;
+}
+
+/* row 2 */
+.title-container-row2{
+  padding: 5px;
+  padding-bottom: 0;
+}
+.text-icon-bigger{
+  font-size: 18px;
+}
+.cont-n-text{
+  display: block;
+  padding: 8px;
+  padding-bottom: 0;
+  max-width: 210px;
+  margin: 0 auto;
 }
