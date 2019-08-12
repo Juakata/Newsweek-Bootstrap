@@ -213,7 +213,7 @@ img{
   font-size: 18px;
 }
 .cont-n-text{
-  display: block;
+  display: inline-block;
   padding: 8px;
   padding-bottom: 0;
   max-width: 210px;
