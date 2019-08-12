@@ -16,7 +16,7 @@ img{
 }
 .container{
   background: #fcfcfc;
-  max-width: 1400px;
+  max-width: 1300px;
   padding: 15px;
 }
 .row-margin{
@@ -152,7 +152,7 @@ img{
   margin-top: 5px;
 }
 .bigger-text{
-  font-size: 15px;
+  font-size: 13px;
 }
 .a-row-1-col-3:hover{
   color: red;
@@ -218,4 +218,43 @@ img{
   padding-bottom: 0;
   max-width: 210px;
   margin: 0 auto;
+}
+.button-unique-img{
+  background: #ededed;
+  margin-top: -15px;
+  color: black;
+  border: none;
+  font-weight: bold;
+  width: 100%;
+  padding: 5px;
+}
+.button-unique-img:hover{
+  background-color: #949494;
+}
+.n-icon-reversed{
+  background: #f2f2f2;
+  color: red;
+}
+.margin-top{
+  margin-top: 8px;
+}
+.span-size{
+  font-size: 16px;
+}
+.margin-top-big{
+  margin-top: 30px;
+}
+.img-row-2{
+  object-fit: cover;
+  height: 17.9vw;
+}
+
+@media( max-width: 770px){
+  .img-row-2{
+    object-fit: cover;
+    height: auto;
+  }
+  .margin-top-media{
+    margin-top: 30px;
+  }
 }
