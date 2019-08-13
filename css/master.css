@@ -8,6 +8,10 @@ hr{
 img{
   width: 100%;
 }
+time{
+  color: white;
+  display: inline-block;
+}
 #face-icon:hover{
   color: #003994;
 }
@@ -19,6 +23,59 @@ img{
 }
 #link-icon:hover{
   color: #0092bf;
+}
+.my-nav-style{
+  background: white;
+  max-width: 1300px;
+  margin: 0 auto;
+  border-bottom: 2px #f0f0f0 solid;
+  background: red;
+  padding: 0;
+  display: block;
+}
+.top-footer{
+  display: inline-block;
+  font-size: 65px;
+  font-weight: 900;
+}
+.top-footer-a{
+  color: white;
+}
+.top-footer-a:hover{
+  color: white;
+  text-decoration: none;
+}
+.my-ul{
+  background: white;
+  clip-path: polygon(0 0, 91% 0, 93% 40%, 101% 40%, 100% 100%, 100% 100%, 0 100%);
+}
+
+.nav-link{
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-link:hover{
+  color: red;
+  text-decoration: none;
+}
+.nav-item span{
+  display: inline-block;
+  background: #e0e0e0;
+  height: 30px;
+  width: 1px;
+  margin-top: 10px;
+}
+
+.input-nav{
+  border: none;
+  outline: none;
+  font-size: 20px;
+  width: 80px;
+}
+.margin-left{
+  margin-right: 100px;
 }
 .first-padding{
   padding-left: 20px;
@@ -394,6 +451,7 @@ img{
   color: black;
   text-decoration: none;
 }
+
 @media( max-width: 991px){
   .margin-top-lg{
     margin-top: 30px;
