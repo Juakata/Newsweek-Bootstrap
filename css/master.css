@@ -11,6 +11,11 @@ img{
 time{
   color: white;
   display: inline-block;
+  flex:1;
+  text-align: left;
+  align-self: flex-end;
+  padding: 15px 0;
+  margin-left: 20px;
 }
 #face-icon:hover{
   color: #003994;
@@ -24,8 +29,20 @@ time{
 #link-icon:hover{
   color: #0092bf;
 }
+.my-flex-cont{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.top-footer-a-container{
+  display:inline-block;
+  flex:1;
+  text-align: right;
+  align-self: flex-end;
+  padding: 15px 0;
+  margin-right: 20px;
+}
 .my-nav-style{
-  background: white;
   max-width: 1300px;
   margin: 0 auto;
   border-bottom: 2px #f0f0f0 solid;
@@ -37,6 +54,27 @@ time{
   display: inline-block;
   font-size: 65px;
   font-weight: 900;
+  flex:1;
+  text-align: center;
+}
+.a-signin{
+  font-weight: bold;
+  color: white;
+  margin-right: 5px;
+}
+.a-signin:hover{
+  text-decoration: none;
+  color: white;
+}
+.a-singup{
+  background: white;
+  padding: 2px 8px;
+  font-weight: bold;
+  color: red;
+}
+.a-singup:hover{
+  text-decoration: none;
+  color: red;
 }
 .top-footer-a{
   color: white;
@@ -48,6 +86,7 @@ time{
 .my-ul{
   background: white;
   clip-path: polygon(0 0, 91% 0, 93% 40%, 101% 40%, 100% 100%, 100% 100%, 0 100%);
+  margin-top: -2px;
 }
 
 .nav-link{
