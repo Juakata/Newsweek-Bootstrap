@@ -8,6 +8,18 @@ hr{
 img{
   width: 100%;
 }
+#face-icon:hover{
+  color: #003994;
+}
+#twitter-icon:hover{
+  color: #00dee6;
+}
+#inst-icon:hover{
+  color: #de00c4;
+}
+#link-icon:hover{
+  color: #0092bf;
+}
 .first-padding{
   padding-left: 20px;
 }
@@ -361,6 +373,26 @@ img{
   text-align: left;
   font-size: 15px;
   line-height: 1.5em;
+  flex: 2;
+}
+.ul-footer-second .li-footer span{
+  margin-left: 18px;
+  color: #e3e3e3;
+}
+.ul-footer-third{
+  font-size: 15px;
+  align-self: flex-start;
+  line-height: 1.5em;
+}
+.span-edit{
+  font-weight: bold;
+}
+.li-footer a{
+  color: grey;
+}
+.li-footer a:hover{
+  color: black;
+  text-decoration: none;
 }
 @media( max-width: 991px){
   .margin-top-lg{
@@ -384,7 +416,9 @@ img{
     align-self: flex-start;
     padding-left: 7px;
   }
-
+  .ul-footer-third{
+    text-align: left;
+  }
   .img-row-2{
     object-fit: cover;
     height: auto;
