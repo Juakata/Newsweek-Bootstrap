@@ -560,3 +560,17 @@ time{
     width: 100%;
   }
 }
+@media( max-width: 500px){
+  .icon-collapse{
+    font-size: 5.5vw;
+  }
+  .a-signin{
+    font-size: 3vw;
+  }
+  .a-singup{
+    font-size: 3vw;
+  }
+  .title-collapse{
+    font-size: 5vw;
+  }
+}
