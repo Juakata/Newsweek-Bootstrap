@@ -10,8 +10,19 @@
   </head>
   <body>
     <header>
+      <nav class="navbar-toggler my-flex-cont script-nav" id="my-nav-collapse">
+        <h2 class="navbar-toggler-icon title-collapse"><a href="#">Newsweek</a></h2>
+        <div class="top-footer-a-container change-padding">
+          <a class="a-signin small-title" href="#">SIGN IN</a>
+          <a class="a-singup small-title" href="#">SUBSCRIBE ></a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <i class="fa fa-bars icon-collapse"></i>
+        </button>
+      </nav>
       <nav class="navbar navbar-expand-lg my-nav-style">
-        <div class="navbar-toggler my-flex-cont" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <div class="navbar-toggler my-flex-cont cont-fix" data-toggle="collapse" data-target="#collapsibleNavbar">
           <h2 class="navbar-toggler-icon title-collapse"><a href="#">Newsweek</a></h2>
           <div class="top-footer-a-container change-padding">
             <a class="a-signin small-title" href="#">SIGN IN</a>
@@ -23,7 +34,7 @@
           </button>
         </div>
         <div class="my-flex-cont collapse navbar-collapse">
-          <time>Tue, Aug 13, 2019</time>
+          <time datetime="2008-02-14 20:00">Tue, Aug 13, 2019</time>
           <div class="top-footer">
             <a class="top-footer-a" href="#">Newsweek</a>
           </div>
@@ -76,7 +87,7 @@
         </ul>
       </nav>
     </header>
-    <div class="container">
+    <div class="container margin-top-query">
       <main>
         <div class="row">
           <div class="col-lg-9">
@@ -971,6 +982,26 @@
         </footer>
       </div>
     </div>
+    <script type="text/javascript">
+
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        var nav = document.getElementById("my-nav-collapse");
+        if ((document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) && document.body.clientWidth > 974) {
+          nav.style.display = "flex";
+          nav.style.width = "100%";
+          nav.style.background = "red";
+          nav.style.position = "fixed";
+          nav.style.top = "0";
+          nav.style.zIndex = "100";
+          nav.style.borderRadius = "0";
+        }else{
+          nav.style.display = "none";
+        }
+      }
+
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
