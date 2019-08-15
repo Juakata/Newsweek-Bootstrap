@@ -1,7 +1,7 @@
 # Newsweek-Bootstrap
 Newsweek Clone
 This project conssist replicating of Newsweek website putting emphasis on how it behaves
-differently depending on the size of the screen where the website is rendered.
+differently depending on the size of the screen where the website is rendered. Link to the original website: https://www.newsweek.com/
 
 Used: CSS and HTML
 
