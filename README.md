@@ -12,7 +12,7 @@ differently depending on the size of the screen where the website is rendered.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Juakata/Apple-Website/master/index.html)
+[Live Demo Link](https://raw.githack.com/Juakata/Newsweek-Bootstrap/master/index.html)
 
 ## Authors
 
