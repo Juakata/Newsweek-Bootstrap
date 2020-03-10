@@ -1,7 +1,6 @@
 # Newsweek-Bootstrap
 
-> This project conssist replicating of Newsweek website putting emphasis on how it behaves
-differently depending on the size of the screen where the website is rendered.
+> This project replicates the Newsweek website, emphasizing especially how it behaves depending on the size of the screen where the website is rendered.
 
 ![Sin título](https://user-images.githubusercontent.com/11781597/63105959-0e94fa00-bf3f-11e9-9c03-c2af78ebb4ac.png)
 
@@ -20,7 +19,7 @@ differently depending on the size of the screen where the website is rendered.
 
 - Github: [@Juakata](https://github.com/Juakata)
 - Twitter: [@HUzquiano](https://twitter.com/HUzquiano)
-- Linkedin: [linkedin](https://www.linkedin.com/in/andoni-uzquiano-31304818a/)
+- Linkedin: [@Andoni](https://www.linkedin.com/in/andoni-uzquiano-31304818a/)
 
 ## 🤝 Contributing
 
@@ -34,5 +33,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MiT](https://opensource.org/licenses/MIT) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
 
