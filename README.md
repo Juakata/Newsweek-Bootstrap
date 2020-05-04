@@ -1,6 +1,6 @@
 # Newsweek-Bootstrap
 
-> This project replicates the Newsweek website, emphasizing especially how it behaves depending on the size of the screen where the website is rendered, the website was built with Bootstrap.
+> This project replicates the Newsweek website, emphasizing especially how it behaves depending on the size of the screen where the website is rendered. The website was built with Bootstrap.
 
 ![Sin título](https://user-images.githubusercontent.com/11781597/63105959-0e94fa00-bf3f-11e9-9c03-c2af78ebb4ac.png)
 
